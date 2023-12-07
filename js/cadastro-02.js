@@ -16,7 +16,7 @@ const incep = document.getElementById("imput-cep");
     let validacoesPassaram = true;
 
     
-    if(cep.length !== 8 || isNaN(cep)){
+    if(cep.length !== 8 || isNaN(parseInt(cep)) || cep === ''){
       alert('Digite um CEP válido');
       validacoesPassaram = false;
     }
@@ -28,7 +28,7 @@ const incep = document.getElementById("imput-cep");
     }
 
     
-    if(numero === ''){
+    if(isNaN(parseInt(numero)) || numero === ''){
       alert('Insira um número válido');
       validacoesPassaram = false;
     }
