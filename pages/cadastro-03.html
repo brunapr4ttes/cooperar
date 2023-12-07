@@ -80,8 +80,37 @@
             <p class="title1">Informações de Condição</p>
             <div class="info1"> 
               <div class="box-condicao">
+
                 <label for="condicao" id="condicao">Condição:</label>
-                <input type="text" id="imput-condicao" placeholder="Digite sua condição..."/>
+                <input list="datalist-condicao" id="imput-condicao" placeholder="Selecione sua condição"/>
+
+                <datalist id="datalist-condicao">
+                  <!-- Deficiências Físicas -->
+                  <option value="Paralisia">
+                  <option value="Amputação">
+                  <option value="Cegueira">
+                  <option value="Surdez">
+                  <option value="Espasticidade">
+                  <option value="Atrofia muscular">
+                  <option value="Tetraplegia">
+                  <option value="Hemiplegia">
+                  <option value="Distonia">
+                  <option value="Paraplegia">
+                
+                  <!-- Deficiências Mentais -->
+                  <option value="Transtorno do Espectro Autista (TEA)">
+                  <option value="Deficiência Intelectual">
+                  <option value="Transtorno do Déficit de Atenção e Hiperatividade (TDAH)">
+                  <option value="Esquizofrenia">
+                  <option value="Transtorno Bipolar">
+                  <option value="Depressão">
+                  <option value="Transtorno Obsessivo-Compulsivo (TOC)">
+                  <option value="Transtorno de Ansiedade">
+                  <option value="Transtorno de Personalidade Borderline (TPB)">
+                  <option value="Transtorno de Estresse Pós-Traumático (TEPT)">
+                </datalist>
+
+
               </div>
             </div>
             <div class="info2"> 
@@ -112,7 +141,7 @@
       <img src="/img/bonequinha.svg" class="cadeirante" alt="" />
     </main>
 
-    <script src="../js/cadastro-01.js"></script>
+    <script src="../js/cadastro-03.js"></script>
 </div>
 
   </body>
