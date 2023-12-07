@@ -39,11 +39,6 @@ const incep = document.getElementById("imput-cep");
       validacoesPassaram = false;
     }
 
-    if(complemento === ''){
-      alert('Insira um complemento válido');
-      validacoesPassaram = false;
-    }
-
     if (!validacoesPassaram) {
       event.preventDefault();
     }
