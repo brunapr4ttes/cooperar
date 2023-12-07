@@ -1,4 +1,4 @@
-const inemail = document.getElementById("email");
+const inemail = document.getElementById("imput-email");
 const insenha = document.getElementById("imput-senha");
 const entrar = document.getElementById("botao-concluir");
 
@@ -10,11 +10,13 @@ entrar.addEventListener('click', function(event) {
   if (!validarEmail(email)) {
     alert("Insira um email válido");
     validacoesPassaram = false;
+    return
   }
 
   if (!validarSenha(senha)) {
     alert("A senha não atende aos requisitos mínimos" + "\n Requisitos da senha: pelo menos 8 caracteres, pelo menos uma letra maiúscula, um número e um caractere especial");
     validacoesPassaram = false;
+    return
   }
 
   if (!validacoesPassaram) {
