@@ -1,0 +1,165 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/img/image-removebg-preview\ 1.svg);
+    background-repeat: no-repeat;
+    background-color: #F8FAFB;
+    background-size:cover;
+    height: 100vh;
+    
+}
+.box-voltar-inicio{
+    /* border: 1px rgb(255, 0, 0) solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-login{
+     /* border: 1px black solid;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    /* border: 1px rgb(250, 0, 0) solid; */
+    width: 600px;
+    height: 650px;
+    /* border: 1px black solid; */
+    background-color: white;
+    box-shadow: 0px 4px 25px 0px rgba(151, 151, 151, 0.25);
+    border-radius: 30px;
+    padding: 41px 106px;
+    margin-top: 120px ;
+    
+}
+.box-logo-cadastro{
+    height: 100px;
+     /* border: 1px black solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 32px;
+    
+}
+#imput-email{
+    width: 550px;
+    height: 72.101px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+
+    padding-left: 15px;
+}
+#email{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color:  #979797;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -13px;
+}
+#imput-senha{
+    width: 550px;
+    height: 72.101px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+
+    padding-left: 15px;
+}
+#senha{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color:  #979797;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -13px;
+
+}
+.email{
+    margin-bottom: 53.9px;
+}
+.email-senha{
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+#botao-concluir{
+    margin-top: 30px;
+    width: 253px;
+    height: 59px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2D5B;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-family: 'Lato', sans-serif;
+    text-decoration:none ;
+    font-size: 16px;
+    font-weight: 700;
+}
+.boneco-sem-perna{
+    position: absolute;
+    top: 338px;
+    margin-left: 900px;
+
+}
+.img-voltar{
+    position: absolute;
+    top: 30px;
+    margin-left: -30px;
+}
+
+#voltar-inicio{
+    position: absolute;
+    color: #979797;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    top: 100px;
+    margin-left: -60px;
+}
+#redirect-cadastro{
+    text-decoration: none;
+    color: #2C2D5B;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    margin-top: 20px;
+    /* border:1px #2C2D5B solid; */
+}
+.button-link{
+    /* border:1px #2C2D5B solid;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
